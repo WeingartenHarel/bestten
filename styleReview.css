@@ -1,0 +1,842 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900');
+/* brands , similar and tranding */
+
+.grey .bordered-col {
+    border: 1px solid #dadada;
+    background: #ffffff;
+    border-radius: 6px;
+    margin: 0 15px;
+    height: 270px;
+}
+
+.brand-item {
+    padding: 10px 0;
+}
+
+.brand-offer p{
+	line-height: 1.0;
+}
+
+body{
+	background: #e0e0e0;	
+}
+
+.section {
+    padding: 50px 0;
+    background: #ffffff;
+}
+.similar .page-wrapper{
+	max-width: 1150px;
+}
+
+.tranding .page-wrapper{
+	max-width: 1150px;
+}
+
+.section-padding{
+	margin-top: -10px;
+}
+.tranding{
+	margin-top: -146px;
+}
+
+.knowledge {
+    margin: auto;
+}
+.gray02 {
+    background-color:#f2f2f2;
+}
+
+
+
+.news-section .news-item .news-item-footer {
+    padding: 20px;
+    padding-top: 0;
+}
+
+.news-section .news-item .news-item-body p{
+	margin-bottom: 0rem;
+}
+
+.headerHero{
+-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    padding: 20px 0;
+}
+i.fa.fa-bars {
+    color: #fff;
+}
+.header {
+	background: url(images/XD-Review-page-Desktop.jpg) no-repeat 0 0 #ffffff;
+    background-size: cover;
+	height:400px;
+	max-height: 400px;
+}
+.header .hero {
+    padding: 15px 50% 110px 0;
+    left: 50%;
+    position: relative;
+    margin-left: -161px;
+}
+.header .hero .date {
+    font-size: 0.875em;
+    color: #fff;
+}
+.header .hero h1 ,.header .hero p {
+	font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    margin: 0px 0px 8px 10px;
+	color: #fff;
+	font-size: 2.25rem;
+	font-weight: 500;
+}
+.header .hero p {
+	font-family: 'Heebo';
+    font-size: 0.875em;
+	color: #fff;
+    line-height: 1.5rem;
+    font-weight: 300;
+}
+.header .logo {
+	margin-left: -25px;
+}
+.knowledge::before{
+
+}
+.mainContainer{
+	max-width: 813px; 
+		margin-right: 20px;
+}
+.mainArticle{
+	/* margin: auto; */
+	width: 790px;
+
+	/*padding-bottom: 100px;
+    max-width: 780px; */
+}
+
+.sidebar{
+	max-width: 340px;
+	display:block;
+    margin-top: -166px;	
+}
+.googleTrands{
+	height: 492px;
+}
+.brands-table{
+    border: 0px solid #ffffff00;
+}
+.brand-cta{
+    padding: 6%;	
+}
+.brand-cta a{
+	max-width:300px;
+	margin:auto;
+}
+iframe#trends-widget-1 {
+        min-height: 380px;
+}
+
+.breadcrumbs{
+	color: #ccc;
+    font-size: 12px;
+    padding: 0% 0% 0px 0;
+    margin-bottom: 20px;
+    margin-left: -20px;
+	
+}
+.breadcrumbs span{
+text-decoration: underline;
+	
+}
+
+.metaData{
+	color: #000;
+	font-size: 12px;
+	text-align:center;
+}
+
+hr{
+	width:100px;
+	border-top: 1px solid rgba(0, 0, 0, 0.99);
+}
+articleTitle h7{
+	
+}
+
+.articleMainTitle{
+font-family: 'PT Serif', serif;
+    color: #fff;
+    font-size: 40px;
+    line-height: 42px;
+    margin: 34px 0px 44px 30px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.articleDisclaimer{
+	font-family: 'PT Serif', serif;
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+    width: 550px;
+    margin: auto;
+	font-style: italic;
+}
+
+.articleTitle{
+color: #000;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 34px 0 10px 0;
+    font-weight: 500;
+    text-align: left;
+    padding: 2% 0% 0% 5%;
+}
+.articleTestemonial{
+    color: #000;
+    font-size: 16px;
+	padding: 0 0 0 0 ;
+}
+
+.articleTestemonialAuther {
+	margin: auto;
+	width: max-content;
+    min-width: 180px;
+	margin-bottom: 40px;
+}
+.articleTestemonialAuther img{
+	    float: left;
+		border-radius: 30px;
+		
+}
+#buttonCollapseHero{
+	text-align: center;
+    color: #fff;
+    display: block;
+    width: 100%;
+}
+.testemonialText{
+    font-family: 'PT Serif', serif;
+    text-align: left;
+    width: 90%;
+    color: #fff;
+	margin: 34px 0px 88px 30px;
+}
+
+.testemonialAutherTitle{
+	position: absolute;
+	font-size: 13px;
+	color:#000000;
+	text-align: left;
+	margin-top: 1px;
+	margin-left: 5px;
+}
+.testemonialAutherSubtitle{
+	position: absolute;
+	font-size: 11px;
+	color:#000000;
+	text-align: left;
+	margin-top: -4px;
+	margin-left: 5px;
+}
+
+.articleText {
+    padding: 0% 10% 0% 5%;
+    line-height: 30px;
+    font-size: 16px;
+    width: auto;
+}
+
+.articleTextItalic{
+    font-family: 'PT Serif', serif;
+    font-size: 16px;
+    color: #000000;
+    font-style: italic;
+    font-weight: 600;
+    margin-left: 60px;
+    width: 80%;
+}
+.mainBrands{
+	width: auto;
+	margin: auto;
+	padding-bottom: 6%;
+}
+.brand-score .progress-bar{
+	background-color:#0d47a1 !important;
+}
+.mainBrands .brand-offer a{
+    display: block;
+    color: #888;
+    font-size: 18px;
+    margin: 22px 0 22px 0;
+}	
+.mainBrands .brand-cta{
+	padding: 2%;
+    padding-top: 0px;
+}
+.mainBrands .brand-cta a{
+	-webkit-box-shadow: 0px 4px 12px 2px rgba(0,0,0,0.22);
+	-moz-box-shadow: 0px 4px 12px 2px rgba(0,0,0,0.22);
+	box-shadow: 0px 4px 12px 2px rgba(0,0,0,0.22);
+}
+
+.btn.btn-raised.btn-info{
+	background-color: #2396f7;
+	border-radius: 5px;
+	
+}
+.brandsRow{
+	/*max-width: 400px; */
+	background: #fff;
+	border: 1px solid #fff;
+	height: max-content;
+	height: auto;
+}
+.relatedBrands{
+    width: 90%;
+	min-height: 120px;
+    margin: auto;
+}
+
+.relatedGames{
+    width: 90%;
+	min-height: 160px;
+    margin: auto;
+}
+
+.relatedBrands img , .relatedGames img{
+	float:left;
+	margin-right: 4%;
+}
+
+.brandsTitle{
+    color: #000;
+    font-size: 20px;
+    line-height: 29px;
+    margin: 0 0 0 0;
+    font-weight: 600;
+    text-align: left;
+    padding: 0% 0% 0% 0%;
+}
+.brandsInnerTitle{
+	color: #000;
+    font-size: 14px;
+    line-height: 10px;
+    margin: 0px 0 16px 0;
+    font-weight: 400;
+    text-align: left;
+    padding: 0% 0% 0% 0%;
+}
+
+.brandsInnerText{
+	display: block;
+    color: #888;
+    font-size: 14px;
+   line-height: 17px; 
+    margin: 4px 0px 0px 0px;
+    text-align: center;
+    font-weight: 400;
+    text-align: left;
+    padding: 0% 6% 6% 6%;
+
+}
+.brands-row .sideImg img{
+	margin-top: -120px;
+}
+.hrBrands{
+	width:100%;
+	color:#e0e0e0;
+	border-top: 1px solid #e0e0e0;
+	margin-top: 2px;
+}
+.hrInnerBrands{
+    width: 90%;
+	color:#e0e0e0;
+	border-top: 1px solid #e0e0e0;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+}
+.slick-cloned{
+	
+}
+.news-section .slick-slide{
+	max-width: 360px;
+}
+
+.slick-slide{
+	 /*   width: 490px !important;
+	max-width: 360px; */
+	
+}
+
+.bigHero{
+	height: auto;
+    width: 100%;
+    background: #111261;
+    margin-top: -15px;
+	background: url(./images/XD-Review-page-Desktop.jpg);
+	background-size: contain;
+}
+
+.reviewMain{
+	margin-top: -90px;
+	margin-bottom: 10px;
+}
+.mainCasinoGalery{
+    background: #e8e8e8;
+    padding: 5% 0 2%;
+}
+.mainCasinoGalery img{
+	height:auto !important;
+}
+.casinoGalery{
+	width: 90%;
+    margin: auto;
+}
+
+.casinoGalery img{
+
+}
+.mainCasinoGalery .slick-initialized .slick-slide{
+    display: block;
+    height: 265px;
+}
+.mainIcons{
+    background: #fff;
+    padding-top: 6.8%;
+    padding-bottom: 28px;
+    margin: auto;
+    min-height: 160px;
+}
+.icons{
+
+}
+.icon{
+	/* width: 16%;
+    float: left; */
+}
+.icon div{
+    font-size: 12px;
+    color: #888;
+    margin-top: 10px;
+	text-align: center;
+}
+.icon img{
+    margin: auto;
+}
+
+.reviews{
+	background: #fff;
+	padding: 0px 0;
+}
+.reviews .container-fluid{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
+.reviews-width{
+    margin: auto;
+    padding-top: 65px;
+    padding-bottom: 100px;
+    padding: 4.6% 0 10% 0;
+}
+.reviews hr{
+    width: 96%;
+    border-top: 1px solid #e0e0e0;
+    margin-top: -20px;
+    margin-bottom: 5.3%;
+}
+.rowInfo{
+	margin-left: 10px;
+}
+
+.rowInfo p{
+	color:#888;
+	line-height: 30px;
+}
+
+.rowInfo strong{
+	color:#000;
+}
+.email{
+	color:#2396f7 !important;
+	text-decoration:underline;
+	font-weight:400 !important;
+}
+.mainInfo hr{
+	width: 88%;
+    border-top: 1px solid #e0e0e0;
+	margin-top: -1rem;
+}
+
+
+.mainInfo strong{
+	font-weight:500;
+}
+
+.reviews .section-title h3{
+	font-family: 'Heebo', sans-serif;
+	font-size: 1.25rem;
+	font-weight: 500;
+	margin-top: 0;
+    margin-bottom: 25px;
+    margin-left: 15px;
+}
+.section .slick-list{
+	
+}
+.brandsRow .user-rating h4 {
+    font-size: 5.3em;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+.reviews .rating h4{
+
+	display: -webkit-inline-box;
+    font-size: 3.75em;
+    margin-bottom: 0;
+    font-weight: 400;
+	color:#888888;
+}
+.reviews .rating span{
+	
+    font-size: 12px;
+	color:#888888;
+}
+.reviews .rating span i{
+    margin-left: 5px;
+    background: #888;
+    border-radius: 50px;
+    color: #fff;
+    padding: 3px;
+    font-size: 10px;
+}
+.mainInfo .col{
+	padding: 0 4%;
+	margin-bottom: 20px;
+}
+.mainInfo .section {
+    padding: 1px 0;
+}
+.sidebar .btn-play{
+    padding: 1.4rem 1rem;
+    font-size: 1.1em;
+    background: #2396f7;
+}
+.sidebar .brand-item img{
+
+}
+.icons .slick-list{
+
+}
+.ratingQuotes {
+	font-family: 'PT Serif', serif;
+    width: 90%;
+    margin: 8% auto 15% auto;
+    padding-top: 10%;
+    font-style: italic;
+    color: #888888;
+    font-size: 18px;
+    text-align: center;
+    background-image: url(./images/quotes.svg);
+    background-size: 36%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 15px;
+    font-weight: 400;
+}
+.author {
+	font-family: 'Heebo';
+    font-size: 14px;
+    color: #888;
+    margin-top: 50px;
+    font-style: normal;
+}
+.author span {
+	font-family: 'Heebo';
+    color: #000;
+	font-weight: 700;
+}
+
+
+/* Three column layout */
+.rating{
+    /*max-width: 200px; */
+    padding-right: 7px;
+	align-items: baseline;
+}
+.bars{
+    margin-top: 11px;
+
+}
+.side {
+    float: left;
+    width: 15%;
+    margin-top:10px;
+}
+
+.middle {
+    margin-top:0px;
+    width: 96%;
+}
+
+/* Place text to the right */
+.right {
+    text-align: right;
+}
+
+/* The bar container */
+.bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    background-color: #fff;
+    text-align: center;
+    color: white;
+}
+
+/* Individual bars */
+.bar-5 {width: 100%; height: 8px; background-color: #4CAF50;}
+.bar-4 {width: 90%; height: 8px; background-color: #8bc34a;}
+.bar-3 {width: 40%; height: 8px; background-color: #cddc39;}
+.bar-2 {width: 14%;  height: 8px; background-color: #98d651;}
+.bar-1 {width: 30%; height: 8px; background-color: #5dd961;}
+
+.bar{
+height: 9px;
+}
+.grey02{
+	background:#f2f2f2;
+}
+
+.reviews-row .row{
+	padding-bottom: 0px;
+	
+}
+.reviews-row .raiting{
+	padding-bottom: 35px;
+	
+}
+.review-col{
+	padding-bottom: 186px;
+}
+.companyInfo p{
+	padding-right: 10.5%;
+}
+/* main article review */
+.mainArticle .reviews-row .slick-prev{
+	left: 46%;
+	top: 100%;
+	padding-top: 60px;
+}
+.mainArticle .reviews-row .slick-next{
+    left: 54%;
+	top: 100%;
+	padding-top: 60px;
+}
+.brandsRow .slick-prev{
+	left: 43%;
+	top: 100%;
+	margin-top: 10px;
+}
+.brandsRow .slick-next{
+    left: 55%;
+	top: 100%;
+	margin-top: 10px;
+}
+
+/* circle */
+.score{
+	display: inline-block;
+	padding: 5%;
+}
+.circleScore{
+    
+    width: 60px;
+    height: 60px;
+    border: 7px solid #8bc34a;
+    border-radius: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    color: #888;
+    text-align: center;
+}
+
+#starScore{
+    font-size: 11px;
+    text-indent: -4px;
+    display: -webkit-inline-box;
+    top: -3px;
+    position: relative;
+}
+.scoreSlider{
+	margin-bottom: 60px;
+    margin-left: -5.15%;
+}
+.scoreSlider .userRaiting{
+	color: #888;
+    font-size: 12px;
+    width: max-content;
+    margin-top: 10px;
+}
+
+.slick-dots li button:before{
+	font-size: 0.6rem;
+}
+@media only screen and (max-width: 1200px){
+	.mainContainer {
+		max-width: initial;
+	}
+	.sidebar {
+		max-width: initial;
+		margin-top: 0px;
+	}
+	.header .hero {
+		padding: 15px 0px 72px 35px;
+		left: initial;
+		position: initial;
+		margin-left: initial;
+	}
+	.mainBrands .brand-cta {
+		padding: 2%;
+		padding-top: 40px;
+	}
+}
+
+
+
+/* bootstrap sizes 540px	720px	960px	1140px */
+
+
+
+@media only screen and (max-width: 1140px){
+	.header{
+		height: auto;
+		max-height: initial;
+	}
+	.mainContainer {
+		max-width: initial;
+    width: 100%;
+    margin-right: 0px;
+	}
+	.sidebar {
+		max-width: initial;
+		margin-top: 0px;
+	}
+	.reviewMain {
+    margin-top: -20px;
+    margin-bottom: 10px;
+	}
+	.mainArticle {
+    /* margin: auto; */
+    width: 100%;
+	}
+
+}
+
+@media only screen and (max-width: 988px) {
+
+	.sidebar {
+		display: block;
+		margin-top: 0px;
+	}
+	.tranding {
+		margin-top: -56px;
+	}
+	.review-col {
+    padding-bottom: 88px;
+	}
+}
+
+@media only screen and (max-width: 768px){
+
+	.colLogos{
+		    margin-top: 40px;
+	}
+	.list-inline-item{
+		    width: 100%;
+	}
+	.bars{
+    margin-top: 11px;
+    margin-left: 0px;
+	}
+	.reviews .rating span {
+		/*display: initial; */
+		font-size: 12px;
+		color: #888888;
+	}
+}
+@media only screen and (min-width: 451px) and (max-width: 767px) {
+	.header {
+		background: url('./images/XD-Review-page-Mobile.jpg') no-repeat top center #ffffff;
+		background-size: cover;
+	}
+	.header .hero {
+        padding: 15px 0px 72px 35px;
+	}
+	.reviewMain {
+    margin-top: -20px;
+    margin-bottom: 100px;
+	}
+	.section-padding {
+		margin-top: -70px;
+	}
+	.colLogos{
+			text-align: center;
+			margin-top: 40px;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.header {
+		background: url('./images/XD-Review-page-Mobile.jpg') no-repeat top center #ffffff;
+		background-size: cover;
+	}
+	.header .hero {
+    padding: 30px 0px 30px 0%;
+	}
+	.reviewMain {
+    margin-top: -20px;
+    margin-bottom: 100px;
+	}
+	.section-padding {
+    margin-top: -80px;
+	}
+	.list-inline-item{
+		    width: 100%;
+	}
+	.colLogos{
+	    text-align: center;
+		margin-top: 40px;
+	}
+	.knowledge{
+	 width:100%;
+	 margin:auto;
+
+	}
+	.casinoGalery {
+    width: 100%;
+    margin: auto;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.header {
+		background: url('./images/XD-Review-page-Mobile.jpg') no-repeat top center #ffffff;
+		background-size: cover;
+	}
+	.header .hero {
+    padding: 30px 0px 30px 0%;
+	}
+	.reviewMain {
+    margin-top: -20px;
+    margin-bottom: 100px;
+	}
+	.section-padding {
+    margin-top: -80px;
+	}
+}
